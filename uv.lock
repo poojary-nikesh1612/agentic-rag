@@ -19,7 +19,6 @@ dependencies = [
     { name = "langchain-tavily" },
     { name = "langchain-text-splitters" },
     { name = "langchain-unstructured" },
-    { name = "langchainhub" },
     { name = "langgraph" },
     { name = "pytest" },
     { name = "python-dotenv" },
@@ -35,7 +34,6 @@ requires-dist = [
     { name = "langchain-tavily", specifier = ">=0.2.18" },
     { name = "langchain-text-splitters", specifier = ">=1.1.2" },
     { name = "langchain-unstructured", specifier = ">=1.0.1" },
-    { name = "langchainhub", specifier = ">=0.1.21" },
     { name = "langgraph", specifier = ">=1.2.11" },
     { name = "pytest", specifier = ">=9.1.1" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
@@ -1284,20 +1282,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/de/83/7d0821c03868d69c52a385891772a9c6f931a8a6cd7c16a2e397c01a5ee2/langchain_unstructured-1.0.1.tar.gz", hash = "sha256:9b4b832b8fcdef8598ff634ec6fc0e344e6d8fdae854c5727f717d605d28e406", size = 6418, upload-time = "2025-12-27T23:23:03.848Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/cc/17/803613614fa4cec18d7dc9953a6029aa038ae4e693ef1b8375d08c30718c/langchain_unstructured-1.0.1-py3-none-any.whl", hash = "sha256:1cdb00b3bccc05daa6f03bc3991b0a76270fd2fc095b358c23bd08c5f0e05f50", size = 6942, upload-time = "2025-12-27T23:23:02.801Z" },
-]
-
-[[package]]
-name = "langchainhub"
-version = "0.1.21"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "packaging" },
-    { name = "requests" },
-    { name = "types-requests" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/71/50/76719d356d80b00761d9680e3eb5df0f5ca8587e79b60ae6dcb678828cdd/langchainhub-0.1.21.tar.gz", hash = "sha256:723383b3964a47dbaea6ad5d0ef728accefbc9d2c07480e800bdec43510a8c10", size = 4481, upload-time = "2024-08-11T20:21:42.305Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/35/63/40328157ddee807991f2f1992c2ad88f479b2472dc9e40d08ccf10700735/langchainhub-0.1.21-py3-none-any.whl", hash = "sha256:1cc002dc31e0d132a776afd044361e2b698743df5202618cf2bad399246b895f", size = 5203, upload-time = "2024-08-11T20:21:40.892Z" },
 ]
 
 [[package]]
@@ -3420,18 +3404,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ae/40/4a3db7990d1f62a53182aa96eaef57aeb2886a27f90a195bc66713565d31/typer-0.27.1.tar.gz", hash = "sha256:a79bef8469a79c45498e7b814ecf8d603cc7644e9acbd9e19cac0334240b18df", size = 203994, upload-time = "2026-08-03T14:41:03.438Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/43/89/9518bc0c3929bee36b3a4a8e3daddd6e03f92f9961c66d4983b837160543/typer-0.27.1-py3-none-any.whl", hash = "sha256:53150287edd11baeb4e4722c8e394fcdf8181c0ae89485cba8d25c778d5edd56", size = 122874, upload-time = "2026-08-03T14:41:04.391Z" },
-]
-
-[[package]]
-name = "types-requests"
-version = "2.33.0.20260712"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "urllib3" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/db/51/703318f7b7be8bee126ec13bf615050f932d0179b8784420f3a0199cc769/types_requests-2.33.0.20260712.tar.gz", hash = "sha256:2141b67ab534a5c5cd2dac5034f2a35f42e699c5bf185eee608c5246a069d7fb", size = 25084, upload-time = "2026-07-12T05:14:20.455Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/62/e7/010c87f559e216d83f9dc51e939633fd0d0ead3377340181ab0e223cd3b5/types_requests-2.33.0.20260712-py3-none-any.whl", hash = "sha256:de027e28c171d3da529689cbfa023b0b4eab188c8dfa22fd834eebd2cee6e7bb", size = 21392, upload-time = "2026-07-12T05:14:19.616Z" },
 ]
 
 [[package]]

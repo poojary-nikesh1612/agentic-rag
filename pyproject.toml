@@ -12,7 +12,6 @@ dependencies = [
     "langchain-tavily>=0.2.18",
     "langchain-text-splitters>=1.1.2",
     "langchain-unstructured>=1.0.1",
-    "langchainhub>=0.1.21",
     "langgraph>=1.2.11",
     "pytest>=9.1.1",
     "python-dotenv>=1.2.2",
