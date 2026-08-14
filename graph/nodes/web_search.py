@@ -1,9 +1,9 @@
 from typing import Any
 
 from dotenv import load_dotenv
+from graph.state import GraphState
 from langchain_core.documents import Document
 from langchain_tavily import TavilySearch
-from state import GraphState
 
 load_dotenv()
 
@@ -15,7 +15,7 @@ def web_search(state: GraphState) -> dict[str, Any]:
     question = state["question"]
     documents = state["documents"]
 
-    tavily_searchs = web_search_tool.invoke({"query": question})
+    tavily_searchs = web_search_tool.invoke({"query": question})["results"]
 
     joined_result = "\n".join(
         [tavily_search["content"] for tavily_search in tavily_searchs]

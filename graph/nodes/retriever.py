@@ -1,10 +1,10 @@
 from typing import Any
 
+from graph.state import GraphState
 from ingestion import retriever
-from state import GraphState
 
 
-def retriever_node(state: GraphState) -> dict[str, Any]:
+def retrieve(state: GraphState) -> dict[str, Any]:
     print("--RETRIEVER--")
     question = state["question"]
     documents = retriever.invoke(question)
